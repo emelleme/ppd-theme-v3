@@ -9,9 +9,6 @@
             "name": "Emelle Me, LLC, Hyaline Creative",
             "homepage": "http://www.phillypolice.com.com"
         }
-    ],
-    "require": {
-        "composer/installers": "*"
-    }
+    ]
 }
 
