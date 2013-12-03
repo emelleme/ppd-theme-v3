@@ -1,0 +1,1 @@
+<p>HONOR &bull; SERVICE &bull; INTEGRITY</p><img src="themes/v3/img/footer-shield.png" alt="PPD Shield"><p>&copy; 2013 Philadelphia Police Department</p>

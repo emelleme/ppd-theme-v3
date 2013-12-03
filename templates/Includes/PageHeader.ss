@@ -1,0 +1,1 @@
+<img src="$HeaderImage.URL" class="bg-content" alt="$HeaderImage.Title">

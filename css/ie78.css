@@ -1,0 +1,20 @@
+#header, #nav, #footer {
+   display:block;
+}
+
+body, html {width: 100%;}
+#wrapper {zoom: 1; width: 100%;}
+
+hr {margin: 15px 0;}
+
+#content-home {width: 100%; display: block;}
+#copyright {display: block; width: 100%; zoom: 1;}
+
+#nav ul {float: right; font-size: 18px; list-style: none; margin: 19px 0 0 0; font-weight: bold;}
+#nav li {display: inline; margin: 0 0 0 15px;}
+
+#hero-headline .excerpt {font-size: 18px; line-height: 21px; padding: 12px 18px 0px 0; margin-bottom: 6px;}
+#hero-twitter {margin-top: 18px;}
+.twitter-left {font-size: 18px; margin: 18px 0 0 18px;}
+
+.home-header-shadow-top {top: 60px;}

@@ -1,0 +1,450 @@
+body, #content li {font: 18px/24px 'Open Sans Condensed'; color: #555;}
+
+a {color: #0076a3; -webkit-transition: all .3s linear; -moz-transition: all .3s linear; -ms-transition: all .3s linear; -o-transition: all .3s linear; transition: all .3s linear;}
+a:hover {color: #00a1dd; text-decoration: none;}
+
+p {margin-bottom: 15px;}
+
+h1 {font-size: 42px; line-height: 48px; color: #333; font-weight: 300;}
+h2 {font-size: 36px; line-height: 42px; color: #333; font-weight: 300; margin: 30px 0 6px 0;}
+h3 {font-size: 30px; line-height: 36px; color: #333; font-weight: 300; margin: 21px 0 6px 0;}
+h4 {font-size: 24px; line-height: 30px; color: #333; font-weight: 300; margin: 0 0 6px 0;}
+h5 {font-size: 18px; line-height: 24px; color: #333; font-weight: 700; margin: 0 0 3px 0;}
+h6 {font-size: 12px; line-height: 18px; color: #333; font-weight: 700; margin: 0 0 0 0;}
+
+#content input {font: 18px/24px 'Open Sans Condensed' !important;}
+#content select, #content option {font-family: 'Open Sans Condensed' !important;}
+#content textarea {font: 18px/24px 'Open Sans Condensed';}
+button.btn, a.btn {font: 18px 'Open Sans Condensed';}
+button.btn-large, a.btn-large {font: 21px 'Open Sans Condensed';}
+i {padding-right: 3px;}
+.pdf-list {list-style: url(/themes/v3/img/icons/document-pdf.png);}
+.web-list {list-style: url(/themes/v3/img/icons/document-web.png);}
+.vid-list {list-style: url(/themes/v3/img/icons/document-video.png);}
+.red {color: red !important;}
+.right {float: right; padding: 12px 0 12px 15px;}
+
+#hero-headline a img, #content-home a img, #content a img, #footer a img {-webkit-transition: all .3s linear; -moz-transition: all .3s linear; -ms-transition: all .3s linear; -o-transition: all .3s linear; transition: all .3s linear; opacity: 1; filter: alpha(opacity=100);}
+#hero-headline a img:hover, #content-home a img:hover, #content a img:hover, #footer a img:hover {opacity: .85; filter: alpha(opacity=85);}
+
+hr.hr15 {border: none; margin: 15px 0;}
+hr {border: none; margin: 30px 0;}
+hr.hr45 {border: none; margin: 45px 0;}
+
+#wrapper {position: relative; z-index: 100;}
+#logo {position: relative; z-index: 100; -webkit-filter:greyscale(0%); -moz-filter:greyscale(0%); -ms-filter:greyscale(0%); -o-filter:greyscale(0%); filter:greyscale(0%);}
+
+#header-home {height: 480px; position: relative;}
+#header-content {height: 180px; position: relative;}
+	.home-header-shadow-top {height: 3px; width: 100%; background: url('/themes/v3/img/3px-shadow-top.png') repeat-x; position: absolute; top: 66px; left: 0; z-index: 2;}
+	.home-header-shadow-bottom {height: 3px; width: 100%; background: url('/themes/v3/img/3px-shadow-bottom.png') repeat-x; position: absolute; bottom: 0; left: 0; z-index: 2;}
+
+#nav {border-top: #1e435b solid 6px; background: url('/themes/v3/img/navbar-back.png') repeat-x; display: block;}
+	#nav ul {float: right; font-size: 18px; list-style: none; margin: 19px 0 0 0; font-weight: 700;}
+	#nav a {color: #666;}
+	#nav a:hover {color: #1e435b; text-decoration: none;}
+	#nav a.active {color: #1e435b; border-bottom: 3px solid #1e435b; padding-bottom: 3px;}
+	#nav li {display: inline; margin: 0 0 0 21px;}
+	#nav li:last-child a {color: #999;}
+	#nav li:last-child a:hover {color: #1e435b;}
+
+ul#nav-news a.nav-news, ul#nav-districts a.nav-districts, ul#nav-programs-services a.nav-programs-services,
+ul#nav-forms-reports a.nav-forms-reports, ul#nav-crime-maps-stats a.nav-crime-maps-stats,
+ul#nav-careers a.nav-careers
+{color: #1e435b; border-bottom: 3px solid #1e435b; padding-bottom: 3px;}
+
+#programs-and-services li a.programs-and-services, #police-athletic-league li a.police-athletic-league, #police-explorer-cadet-program li a.police-explorer-cadet-program, #philadelphia-youth-police-camp li a.philadelphia-youth-police-camp, #heads-up-program li a.heads-up-program, #careers li a.careers, #hiring-process li a.hiring-process, #application li a.application, #salary-and-benefits li a.salary-and-benefits, #requirements li a.requirements, #career-paths li a.career-paths, #faqs li a.faqs, #police-academy li a.police-academy, #civilian-careers li a.civilian-careers, #military-experience li a.military-experience, #preference-points li a.preference-points, #about li a.about, #mission li a.mission, #leadership li a.leadership, #partners li a.partners, #fallen-officers li a.fallen-officers, #contact li a.contact, #police-officer-involved-shootings li a.police-officer-involved-shootings, #crimereports-disclaimer-and-faqs li a.crimereports-disclaimer-and-faqs {font-weight: 700; color: #333;}
+
+
+/* Notice Header */
+#header-notice {z-index: 1000; width: 100%; height: 30px; position: relative; top: 0; line-height: 30px; text-align: center; background: #6aba2e; color: #fff;}
+#header-notice .container p {margin: 0; padding: 0;}
+#header-notice .container p.internal-preview {float: left; font-weight: 700;}
+#header-notice .container p.feedback-bug {float: right;}
+#header-notice .container p a {color: #eee;}
+#header-notice .container p a:hover {color: #fff;}
+#header-notice .container p a:visited {color: #fff;}
+.bg-home, .bg-content {margin-top: 30px !important;}
+
+
+
+/* HOME
+============================================ */
+	
+#hero-headline {background: url('/themes/v3/img/black-75percent.png') repeat; height: 250px; margin-top: 18px; margin-bottom: 18px; color: #fff;}	
+	#hero-headline a {color: #6dcff6;}
+	#hero-headline a:hover {color: #90e6ff;}
+	#hero-headline img {margin: 18px 21px 0 18px; height: 214px; float: left;}
+	#hero-headline .title {font-size: 30px; line-height: 30px; margin: 18px 18px 0 0; padding: 0;}
+	#hero-headline .excerpt {font-size: 18px; line-height: 24px; padding: 12px 18px 2px 0;}
+	#hero-headline .link {}
+#hero-twitter {background: url('/themes/v3/img/black-75percent.png') repeat; height: 81px; color: #fff;}
+	#hero-twitter a {color: #6dcff6;}
+	#hero-twitter a:hover {color: #90e6ff;}
+	.twitter-left {font-size: 24px; margin: 18px 0 0 18px;}
+	.twitter-left i {padding-right: 0;}
+	.twitter-right {margin: 18px 18px 0 0; padding: 0;}
+
+#about-photo {background: url('/themes/v3/img/about-photo-fade-black.png') repeat-x top; padding: 18px 0 27px 0; width: 100%; text-align: center; position: absolute; bottom: 0; left: 0;}
+   #about-photo h2 {color: #fff; width: 750px; margin: 0 auto; text-align: left; padding-bottom: 6px;}
+   #about-photo p {color: #e5e5e5; width: 750px; margin: 0 auto; text-align: left; }
+
+#about-photo {-webkit-transform: scale(1); -ms-transform: scale(1); opacity: 0; filter:alpha(opacity=0);}
+   
+#show-about-photo {position: absolute; bottom: 0; right: 50px; width: 102px; height: 20px; background: url('/themes/v3/img/black-75percent.png') repeat; padding: 9px; color: #fff; text-align: center;}
+
+.fadable {-webkit-transition: -webkit-transform 400ms ease, opacity 400ms ease !important;}
+
+.fade_in {opacity: 1 !important; -webkit-transform: scale(1.0); -ms-transform: scale(1.0); filter:alpha(opacity=100);}
+.fade_out {opacity: 0 !important; -webkit-transform: scale(0.8); -ms-transform: scale(0.8); filter:alpha(opacity=0);}
+
+#content-home {background: #fff url('/themes/v3/img/background-content.png') repeat-x center top;}
+
+.callout {padding-top: 45px; padding-bottom: 30px;}
+	.callout img {float: left; margin: 0 18px 0 0;}
+	.callout .title {font-size: 24px;}
+	.callout .excerpt {font-size: 18px;}
+	
+.home-content-items {padding-bottom: 45px;}
+
+.latest-news img {padding-bottom: 9px;}
+.latest-news p.title {font-size: 18px; margin: 0;}
+.latest-news p.excerpt {margin: 0; }
+.latest-news p.date {margin: 0 0 6px 0; font-style: italic;}
+
+.toolbox ul {list-style: none; margin: 0;}
+.toolbox ul li {margin: 0 0 6px 0;}
+
+.social-bookmarks li {margin-right: 9px;}
+
+.heading {border-bottom: 5px solid #f6f6f6; margin-bottom: 15px; margin-top: -10px;}
+
+.heading h1, .heading h2, .heading h3, .heading h4, .heading h5, .heading h6 {border-bottom: 5px solid #005b7f !important; margin-bottom: -5px !important; display: inline-block !important; padding: 0px 10px !important; margin-left: 0px !important; margin-right: 15px !important;}
+	
+.heading h3:first-child {margin-top: 0 !important;}	
+
+/* CONTENT 
+============================================ */
+
+#header-content h1 {color: #fff; text-shadow: 0 0 5px #333; margin-top: 36px;}
+
+#content {background: #fff url('/themes/v3/img/background-content.png') repeat-x center top; padding: 45px 0 45px 0;}
+
+.sidebar ul, ul.square-list {list-style: square;}
+
+.sub-nav li.active {font-weight: 700; cursor: default; color: #333;}
+
+.middle-band {width: 100%; background: #f5f5f5; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+.middle-band h3 {margin-top: 0; padding-top: 0;}
+
+img.left {float: left; margin: 0 15px 9px 0;}
+
+
+/* Photo Stream */
+
+.flickr-widget {margin-right: -12px; margin-top: 15px;}
+.flickr-widget img {display: block; width: 100%;}
+.flickr-widget a:hover {border-color: #505050;}
+
+.flickr-widget a {float: left; width: 52px; height: 52px; margin-left: 0px; margin-right: 11px; margin-bottom: 12px; background: #fcfcfc; border: 1px solid #f6f6f6; padding: 4px; -webkit-transition: all 0.1s ease-in-out; -moz-transition: all 0.1s ease-in-out; -o-transition: all 0.1s ease-in-out; -ms-transition: all 0.1s ease-in-out; transition: all 0.1s ease-in-out;}
+
+.ie7 .flickr-widget a {width: 54px; height: 54px;}
+
+
+/* Posts
+=================================================================== */
+.post {padding: 0; border-bottom: 1px solid #eee; margin-bottom: 36px;}
+.post img {margin-bottom: 6px;}
+.post.post-page {border-bottom: none; margin-bottom: 0;}
+.post-content {margin: 22px 0 0 0px;}
+
+/* Icons */
+.post-icon {float: left; width: 70px; height: 70px; margin-top: 30px;}
+
+/* Tags */
+.post-meta {background: #fff; color: #666; margin: 5px 0px; padding: 10px 5px; border-top: 1px solid #eee; clear: both;}
+.post-meta a {text-decoration: none;}
+.post-meta a:hover {}
+.post-meta i {opacity: 0.50; filter: alpha(opacity = 50); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; margin-right: 6px; zoom: 1;}
+.post-meta span {margin-right: 10px;}
+
+
+/* NEWS 
+============================================ */
+
+#vidFrame.modal {width: 900px; margin-left: -450px;}
+#vidFrame h3 {margin-top: 8px; margin-right: 18px;}
+#player.modal-body {float: left; margin: 0 3px 0px 0;}
+#videoDescription {margin: 12px 18px 0 0;}
+.modal-footer {padding: 7px 8px 8px;}
+
+/* FOOTER
+============================================ */
+
+#city-links {background: url('/themes/v3/img/background-citylinks.jpg') repeat; border-top: #ddd solid 3px; padding: 15px 0;}
+	#city-links p {margin: 0; padding: 0; line-height: 27px;}
+	#city-links a {font-weight: 700; color: #999;}
+	#city-links a:hover {color: #666;}
+	#city-links .back-to-top {text-align: right; font-size: 18px; padding: 3px 0;}
+	#city-links .back-to-top a {background: #999; color: #fff; padding: 3px 6px;}
+	#city-links .back-to-top a:hover {background: #666; color: #fff;}
+	#city-links .back-to-top i {padding-right: 0;}
+
+#footer {background: url('/themes/v3/img/background-footer.jpg') repeat; border-top: #808080 solid 3px; border-bottom: #808080 solid 3px; color: #e8ebec; padding-top: 45px; padding-bottom: 45px;}
+	#footer div.title {color: #e8ebec; border-bottom: #646a6d solid 3px; font-size: 24px; margin-bottom: 12px; padding-bottom: 9px;}
+	#footer a {color: #dbae35;}
+	#footer a:hover {color: #ffce42;}
+	.social-simple li {margin-right: 9px;}
+	#footer ul {list-style: none; margin: 0;}
+	#footer ul li {margin: 0 0 3px 0;}
+	#footer ul li i {font-size: 12px;}
+	#footer p.title {font-size: 18px;}
+	#footer p.date {font-style: italic; margin: 0 0 6px 0;}
+	#footer p.excerpt {}
+	
+#copyright {text-align: center; background: url('/themes/v3/img/background-copyright.jpg') repeat; padding: 30px 0;}
+	#copyright p {display: inline; margin: 0 9px;}
+	#copyright img {margin-top: -3px;}
+	
+	
+	
+/* MISC GLOBAL
+============================================ */
+
+.icon-external-link {padding-left: 3px; padding-right: 0; font-size: 12px;}
+.hint {font-size: 12px; line-height: 15px; color: #999;}
+.separator {height: 1px; width: 100%; border-bottom: 1px dashed #ccc; margin: 30px 0;}
+.no-list {list-style: none !important; margin: 0; padding: 0;}
+.clear {clear: both;}
+
+img.bg-home {min-height: 480px; min-width: 1280px; width: 100%; height: auto; position: absolute; top: 0; left: 0; z-index: 1;}
+img.bg-content {min-height: 180px; min-width: 1280px; width: 100%; height: auto; position: absolute; top: 0; left: 0; z-index: 1;}
+
+
+
+/* WIDE SCREEN (BELOW 1199PX) 
+============================================ */
+
+@media (max-width: 1199px) {
+
+	#nav li {margin: 0 0 0 12px; font-size: 16px;}
+	
+	.twitter-left {font-size: 18px; margin: 18px 0 0 18px;}
+	
+	#hero-headline .title {font-size: 21px; line-height: 24px; margin: 18px 18px 0 0; padding: 0;}
+	#hero-headline .excerpt {font-size: 15px; line-height: 21px; padding: 12px 18px 2px 0;}
+	
+	.video-card {margin-bottom: 20px;}
+	.post-card {margin-bottom: 20px;}
+	
+	[class*="span"] {float: left; min-height: 1px; margin-left: 20px;}
+}
+
+
+
+/* ULTRA-WIDE SCREEN (ABOVE 1200PX)
+============================================ */
+
+@media (min-width: 1200px) {
+	
+	.video-card {margin-bottom: 30px;}
+	.post-card {margin-bottom: 30px;}
+	
+	[class*="span"] {float: left; min-height: 1px; margin-left: 30px;}
+	
+}
+
+
+
+/* NEWS 
+============================================ */
+
+/* Unsolved Crime Surveillance Videos */
+
+#filters-location, #filters-crimetype {text-align: left; margin: 10px 0 0 0; float: left;}
+
+#filters-policeblotter, #filters-beyondthebadge {text-align: right; margin: 10px 0px 10px 0px; float: left;}
+
+#filters-policeblotter ul, #filters-beyondthebadge ul {margin-left: 10px;}
+
+#filters-location ul li, #filters-crimetype ul li, #filters-policeblotter ul li, #filters-beyondthebadge ul li  {display: inline;}
+
+#filters-location a, #filters-crimetype a, #filters-policeblotter a, #filters-beyondthebadge a  {padding: 5px 10px; border: 1px solid #f6f6f6; display: inline-block; color: #888; background-color: #fff; margin: 0 5px 10px 0; -webkit-box-shadow:  0px 1px 1px 0px rgba(180, 180, 180, 0.1); box-shadow:  0px 1px 1px 0px rgba(180, 180, 180, 0.1); -webkit-transition: all 0.1s ease-in-out; -moz-transition: all 0.1s ease-in-out; -o-transition: all 0.1s ease-in-out;-ms-transition: all 0.1s ease-in-out; transition: all 0.1s ease-in-out;}
+
+#filters-location a:hover, #filters-crimetype a:hover, #filters-policeblotter a:hover, #filters-beyondthebadge a:hover, .selected {background-color: #29a9df !important; border: 1px solid #29a9df !important; color: #fff !important;}
+
+#video-cards-wrapper {border-top: 1px dashed #ccc; padding: 30px 0 0 0;}
+	.video-card {-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, .5); box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, .5); overflow: hidden; background: #f5f5f5;}
+	.video-card-thumbnail {}
+	.video-card-title {padding: 12px 18px; font-size: 21px;}
+	.video-card-meta {border-top: 1px solid #ddd; padding: 12px 18px;}
+	
+#post-cards-policeblotter-wrapper {padding: 30px 0 0 0;}
+#post-cards-beyondthebadge-wrapper {padding: 30px 0 0 0;}
+	.post-card {-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, .5); box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, .5); overflow: hidden; background: #f5f5f5; left: -1px !important; }
+	.post-card-thumbnail {}
+	.post-card-title {padding: 12px 18px; font-size: 21px;}
+	.post-card-excerpt {padding: 0px 18px; font-size: 15px;}
+	.post-card-meta {border-top: 1px solid #ddd; padding: 12px 18px; font-size: 15px; line-height: 18px;}
+	.post-card-meta p {margin-bottom: 9px;}
+
+#tipstoarrest {width: 373px; height: 180px; background: url(../img/tipstoarrest.png) no-repeat; position: relative; font: bold 69px Helvetica, Arial, sans-serif; color: #fff; margin: 0 0 15px 0;}
+   .flip-clock-line {position: absolute; height: 2px; width: 147px; background: #000; top: 92px; left: 113px;z-index: 2;}
+   .three-digits {letter-spacing: 11px; position: absolute; top: 54px; left: 119px; width: 146px; z-index: 1;}
+
+#latest-news-story {border-bottom: 2px solid #ccc; margin: 0 0 12px 0; padding: 0 0 3px 0;}
+#latest-news-story img {width: 100%; padding-bottom: 6px;}
+.latest-news-story-category-date a {font-weight: 700; color: #619fb4;}
+.latest-news-story-category-date a:hover {color: #7ac8e2;}
+.latest-news-story-category-date {text-transform: uppercase; margin-top: -9px; margin-bottom: 6px;}
+.latest-news-story-title {font-size: 24px; line-height: 24px; font-weight: 700;}
+.latest-news-story-excerpt {}
+
+.news-list {border-bottom: 1px solid #ccc; margin: 0 0 12px 0; padding: 0 0 12px 0;}
+.news-list-category {float: right; text-transform: uppercase; text-align: right; margin: 0; padding: 0;}
+.news-list-category a {font-weight: 700; color: #619fb4;}
+.news-list-category a:hover {color: #7ac8e2;}
+.news-list-date {float: left; text-transform: uppercase; text-align: left; margin: 0; padding: 0;}
+.news-list-title {font-size: 18px; line-height: 18px; font-weight: 700; width: 100%; clear: both; margin: 0; padding: 0;}	
+
+.news-list .span1 {margin: 0;} 
+.news-list .span2 {margin: 0 0 0 15px;}
+
+.carousel {margin-bottom: 0;} 	
+
+.mw-date {font-style: italic; font-size: 15px; line-height: 15px;}
+
+.no-bot-padding {margin-bottom: 0; padding-bottom: 0;}
+
+
+/* LOGIN
+============================================ */
+
+#login-box, #register-box {padding: 20px 20px; margin-bottom: 20px; background: #fff; border-top: 1px solid #ddd; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, .5); box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, .5);}
+
+#login-form form {margin-bottom: 0;}
+
+#login-form input[type="text"], #login-form input[type="password"]  {margin-bottom: 8px; font-size: 16px; height: 40px;}
+
+#login-form input[type="checkbox"] {margin-top: -4px;}
+
+#login-form .remember {width: 45%; float: left; text-align:left; line-height: 30px; height: 40px;}
+
+#login-form .forgot {width: 45%; float: right; text-align:right; font-weight: bold; line-height: 30px; height: 40px;}
+
+
+
+/* DISTRICTS
+============================================ */
+
+/* Google Map */
+#googlemaps-container-top {position: relative; z-index: 2; -webkit-box-shadow: inset 0px 3px 3px rgba(0,0,0,.25); -moz-box-shadow: inset 0px 3px 3px rgba(0,0,0,.25); box-shadow: inset 0px 3px 3px rgba(0,0,0,.25); height: 20px; margin-top: -40px;}
+
+#googlemaps-container-bottom {position: relative; z-index: 2; -webkit-box-shadow: inset 0px -3px 3px rgba(0,0,0,.25); -moz-box-shadow: inset 0px -3px 3px rgba(0,0,0,.25); box-shadow: inset 0px -3px 3px rgba(0,0,0,.25); height: 20px; margin-top: -40px; border-bottom: 5px solid #f6f6f6; margin-bottom: 20px;}
+
+#googlemaps {position: relative; z-index: 1; height: 300px; width: 100%; top: -20px; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; transition: all 1s ease-in-out;}
+
+#small-map-container {-webkit-border-radius: 50em; -moz-border-radius: 50em; border-radius: 50em; position: relative; z-index: 2; border: 5px solid #f6f6f6; -webkit-box-shadow: inset 0px 0px 5px rgba(0,0,0,.25); -moz-box-shadow: inset 0px 0px 5px rgba(0,0,0,.25); box-shadow: inset 0px 0px 5px rgba(0,0,0,.25); height: 210px; width: 210px; margin-bottom: -215px;}
+
+#small-map-container a {-webkit-border-radius: 50em; -moz-border-radius: 50em; border-radius: 50em; position: relative; z-index: 2; height: 210px; width: 210px; display: block;}
+	
+#small-map {position: relative; z-index: 1; -webkit-border-radius: 50em; -moz-border-radius: 50em; border-radius: 50em; margin-left: 5px;}
+
+/* Bootstrap fixes for Google Maps */
+
+#googlemaps img {max-width: none;}
+#googlemaps label {width: auto; display:inline;} 
+
+.viewonmap {margin: -21px 0 6px 0;}
+.viewonmap a {color: #666; font-size: 12px; line-height: 12px;}
+.viewonmap a:hover {color: #000;}
+
+.district-street-address-input {height: 30px !important}
+#single_district h2 {margin: 0;}
+
+#current-location-display p {float: left; margin: 7px 0px 0px 12px;}
+
+.district-calendar-modal {width: 430px; margin-left: -215px;}
+.district-calendar-label {font-size: 13px; line-height: 13px; font-weight: bold; margin: 0;}
+.district-calendar-map {margin-bottom: 0; padding-bottom: 0;}
+
+.district-captain {font-size: 18px;}
+.district-psa {margin: 0 0 9px 0;}
+
+
+/* FORMS
+============================================ */
+
+label {font-weight: 700; margin: 3px 0 3px 0;}
+label.radio {font-weight: 300;}
+form h4 {margin: 15px 0 6px 0;}
+form h5 {margin: 6px 0 3px 0;}
+form .muted {margin: -6px 0 6px 0; font-style: italic; font-size: 15px;}
+
+
+
+/* CRIME MAPS & STATS
+============================================ */
+
+#crimemapper {position: relative; z-index: 1; height: 400px; width: 100%; top: -20px; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; transition: all 1s ease-in-out;}
+
+#homicide-stats {margin-top: 6px; margin-bottom: 12px;}
+th.col-0 {background: #edb71d; color: #2b4f6e; text-align: right; border-right: none;}
+th.col-1 {background: #edb71d; color: #2b4f6e; text-align: center; width: 72px;}
+th.col-2 {background: #5380a6; color: #2b4f6e; text-align: center;}
+th.col-3 {background: #779fc1; color: #3d6283; text-align: center;}
+th.col-4 {background: #9abedc; color: #3d6283; text-align: center;}
+th.col-5 {background: #c1d8ec; color: #3d6283; text-align: center;}
+th.col-6 {background: #dbeaf7; color: #3d6283; text-align: center;}
+th.col-7 {background: #ebf3fa; color: #3d6283; text-align: center;}
+
+#homicide-stats td {text-align: center; font-weight: 700; font-size: 18px; color: #aaa; padding-top: 21px;}
+#homicide-stats .current-year {font-size: 24px; color: #333;}
+#homicide-stats td.current-year {padding-top: 12px;}
+
+td.col-0 {text-align: right !important; padding-top: 15px !important;}
+td.col-0 h5 {font-size: 18px; color: #2b4f6e; margin-top: -6px;}
+
+.homicides-change {width: 24px; padding-top: 5px; float: left; font-size: 13px; line-height: 13px; color: #666; text-align: center;}
+.homicides-count {width: 40px; font-size: 27px; line-height: 36px; color: #333; font-weight: bold; float: left; text-align: right; padding-right: 6px;}
+.homicides-as-of {font-size: 14px; color: #333; font-style: italic; font-weight: normal; padding: 0; margin: 0;}
+
+#ois-summaries {}
+#ois-summaries th {padding: 6px; border: 1px solid #ccc; background: #eee;}
+#ois-summaries td {padding: 6px; border: 1px solid #ccc; text-align: center;}
+#ois-summaries .psn {width: 75px;}
+#ois-summaries .daa {width: 75px;}
+#ois-summaries .ufrbd {width: 75px;}
+
+
+/* SEARCH OVERLAY
+========================================== */
+
+#search-overlay {background: black; background: rgba(0,0,0,0.85); color: white; display: none; font-size: 24px; height: 100%; padding: 20px 0; width: 100%; position: absolute; z-index: 1000000; overflow-y: scroll;}
+
+#display-search {background: none; border: none; color: #dbae35; font-family: 'Open Sans Condensed'; font-weight: 700; font-size: 60px; margin: 25px 0 0 0; width: 960px; height: 100px; cursor: default; border-radius: 0 !important; -webkit-border-radius: 0 !important; -moz-border-radius: 0 !important;}
+
+#hidden-search {left: -10000px; position: absolute;}
+
+#search-overlay-results {display: none; width: 650px;}
+#search-overlay-results a {cursor: pointer;}
+
+#result-list {font-size: 18px; line-height: 125%; padding: 0 0 0 10px; list-style: none;}
+
+#result-list li {margin-bottom: 3px;}
+
+#result-list p {margin-bottom: 21px;}
+
+#result-list a {color: #bdecff; font-size: 18px; font-weight: 700;}
+
+#search-overlay h2.result-summary {margin: 18px 0 20px 0;}
+
+#search-overlay h2{margin: 0 0 20px 0; color: #fff;}
+
+#search-overlay-close {cursor: pointer; float: right;}
+
+.try{margin: 20px 0 0 60px;}
+
+/* Report select options */
+
+#submit-new-tip {cursor: pointer;}

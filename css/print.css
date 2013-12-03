@@ -1,0 +1,5 @@
+#nav ul, #city-links, .bg-content, .bg-home, .home-header-shadow-top, .home-header-shadow-top {display: none;}
+#content {padding-top: 0 !important;}
+#hero-headline {width: 100%;}
+#report_crime_select_chzn {display: none;}
+.callout {padding-top: 0; padding-bottom: 15px;}
