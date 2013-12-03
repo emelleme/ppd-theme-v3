@@ -1,0 +1,17 @@
+{
+    "name": "emelleme/ppd-theme-v3",
+    "description": "Version 3 of the site theme",
+    "type": "silverstripe-theme",
+    "keywords": ["silverstripe", "theme"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Emelle Me, LLC, Hyaline Creative",
+            "homepage": "http://www.phillypolice.com.com"
+        }
+    ]
+    "require": {
+        "composer/installers": "*"
+    }
+}
+
